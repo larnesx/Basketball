@@ -3,7 +3,7 @@ const contents = document.querySelectorAll('[data-content]');
 const navButtons = document.querySelectorAll('.navbut');
 
 const typeWriterText = document.querySelector('.text-writer');
-const textArr = ['never\nstops', "is a gentleman sport", "is a knee-killin' sport"];
+const textArr = ['never\nstops', "is incredible", "made me strong","is my life"];
 
 let textArrayIndex = 0;
 let charIndex = 0;
