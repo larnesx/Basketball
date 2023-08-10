@@ -7,7 +7,9 @@
     --color: #d0da44;
 }
 body {
-    background-color: var(--bg-color);
+    background: url(/assets/images/kb22.jpg) fixed no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -62,8 +64,8 @@ header {
 .upper-container {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    background-color: #212327;
+    position: absolute;
+    background-color: black;
     width: 100%;
     top: 0;
 }
@@ -75,6 +77,8 @@ header {
 }
 
 .advertisement {
+    position: relative;
+    text-align: left;
     width: 90%;
     height: 570px;
     border: none;
@@ -86,6 +90,45 @@ header {
     width: 93%;
     height: 700px;
 }
+
+.text-for-irving {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.text-writer {
+    position: relative;
+}
+.text-writer::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100px;
+    background-color: #fff;
+    top: -5px;
+    margin-left: 7px;
+    animation: blink .8s ease-in-out infinite;
+}
+@keyframes blink {
+    0%, 100% {
+        background-color: #fff;
+    }
+
+    40%, 50% {
+        background-color: transparent;
+    }
+}
+.top-left {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
 img {
     max-width: 100%;
@@ -99,7 +142,7 @@ img {
     margin: 30px;
     display: flex;
     justify-self: flex-start;
-    color: #d0da44;
+    color: #c77dff;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
@@ -115,36 +158,36 @@ img {
     max-width: 100%;
 }
 .navbut {
-    color: #d0da44;
+    color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 650;
     transition: all .6s ease;
 }
 
 .navbut:hover {
-    color: #fbad5f;
+    color: #c77dff;
 }
 
 .navbutadd {
-    color: #fbad5f;
+    color: #c77dff;
     transform: translateY(10px);
 }
 .btn {
     width: 100px;
     height: 40px;
-    color: #d0da44;
+    color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 650;
     transition: all .6s ease;
     border-radius: 20px;
     padding-top: 5px;
     text-align: center;
-    background-color: #fbad5f;
+    background-color: #c77dff;
     color: #fff;
 }
 .btn:hover {
     background-color: aliceblue;
-    color: #d0da44;
+    color: #c77dff;
 }
 
 .comments {
