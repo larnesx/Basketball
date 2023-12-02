@@ -1,15 +1,11 @@
 * {
     text-decoration: none;
     list-style: none;
+    
 }
 :root {
     --bg-color: #212327;
     --color: #d0da44;
-}
-body {
-    background: url(/assets/images/kb22.jpg) fixed no-repeat;
-    background-size: cover;
-    background
 }
 
 
