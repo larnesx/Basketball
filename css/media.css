@@ -1,0 +1,12 @@
+@media (max-width: 1000px) {
+    .navbut, .btn, .top-left, .comments, .achievement, .thought-comment, .pre-footer {
+        display: none;
+    }
+    .logo, .text-writer, .text-for-irving {
+        font-size: 22px;
+    }
+
+    .menu-but {
+        display: block;
+    }
+}
